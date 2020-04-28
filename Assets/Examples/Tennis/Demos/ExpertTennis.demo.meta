@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 9676a67fc4a8d420aab12eb513a845a8
+ScriptedImporter:
+  fileIDToRecycleName:
+    11400000: Assets/Examples/Tennis/Demos/ExpertTennis.demo
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  userData: ' (MLAgents.Demonstrations.Demonstration)'
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 7f89bcd5b2f79e643b0c288ec23274c6, type: 3}
