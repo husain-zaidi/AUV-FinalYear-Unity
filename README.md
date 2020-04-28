@@ -19,7 +19,7 @@ Basically:
 
 ## Run and Train
 
-1. For running trained model, just click play
+1. For running trained model, just click play. The main scene is ```Scenes/Arena```
     * The AUV Gameobject has an agents script which has the neural network stored
     * Neural Network trained models are in ```/Assets/TrainedModels/models```
 2. For training, open terminal in ```/Assets/TrainedModels/models```
