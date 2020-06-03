@@ -1,0 +1,3 @@
+model_checkpoint_path: "model-50125.ckpt"
+all_model_checkpoint_paths: "model-49800.ckpt"
+all_model_checkpoint_paths: "model-50125.ckpt"

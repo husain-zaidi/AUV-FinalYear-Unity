@@ -49,8 +49,8 @@ public class Sameera_Agent : Agent
         if (coll.gameObject.name == "Fish")
         {
             Debug.Log("FISH");
-            SetReward(1.0f);
-            currentReward += 1f;
+            SetReward(5.0f);
+            currentReward += 5f;
             EndEpisode();
         }
     }
@@ -69,8 +69,8 @@ public class Sameera_Agent : Agent
         Vector3 directionToTarget = target.position - thrusterFront.position;
 
         //existential penatly
-        //AddReward(-0.005f);
-        //currentReward -= 0.005f;
+        AddReward(-0.005f);
+        currentReward -= 0.005f;
 
         Debug.DrawLine(transform.position, transform.position + transform.up * 2);
         float facingDot = Vector3.Dot(directionToTarget.normalized, transform.forward);
@@ -109,7 +109,7 @@ public class Sameera_Agent : Agent
         rBody.angularVelocity = Vector3.zero;
         rBody.velocity = Vector3.zero;
         //Random -3,6 -1,15
-        transform.position = new Vector3(Random.Range(-3f, 6f), 0f, Random.Range(-1f, 15f));
+        transform.position = new Vector3(Random.Range(-3f, 15f), 0f, Random.Range(-1f, 15f));
 
         transform.rotation = Quaternion.identity;
         //transform.Rotate(0, 90, 90);
