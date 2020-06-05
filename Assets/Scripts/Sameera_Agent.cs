@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using MLAgents;
-using MLAgents.Sensors;
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
 using UnityEngine.UI;
 
 public class Sameera_Agent : Agent
@@ -93,15 +93,13 @@ public class Sameera_Agent : Agent
         rewardText.text = "Reward: " + System.String.Format("{0:0.00}", currentReward);
     }
 
-    public override float[] Heuristic()
+    public override void Heuristic(float[] actionsOut)
     {
-        var action = new float[4];
-        action[0] = Input.GetAxis("Horizontal");
-        action[1] = Input.GetAxis("Vertical");
-        action[2] = Input.GetAxis("Vertical");
-        action[3] = Input.GetAxis("Vertical");
-
-        return action;
+        actionsOut[0] = Input.GetAxis("Horizontal");
+        actionsOut[1] = Input.GetAxis("Vertical");
+        actionsOut[2] = Input.GetAxis("Vertical");
+        actionsOut[3] = Input.GetAxis("Vertical");
+        
     }
 
     public override void OnEpisodeBegin()

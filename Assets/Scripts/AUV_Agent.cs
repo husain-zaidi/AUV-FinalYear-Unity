@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
-using MLAgents;
-using MLAgents.Sensors;
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
 using UnityEngine.UI;
 
 public class AUV_Agent : Agent
