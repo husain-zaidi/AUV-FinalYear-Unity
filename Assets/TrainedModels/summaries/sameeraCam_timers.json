@@ -1,0 +1,89 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1591865710",
+        "python_version": "3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\ProgramData\\Anaconda3\\Scripts\\mlagents-learn auv_config.yaml --run-id=sameeraCam",
+        "mlagents_version": "0.16.1",
+        "mlagents_envs_version": "0.16.1",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.0.1",
+        "end_time_seconds": "1591865757"
+    },
+    "total": 47.2570776,
+    "count": 1,
+    "self": 0.00031759999999536603,
+    "children": {
+        "run_training.setup": {
+            "total": 0.005149599999999754,
+            "count": 1,
+            "self": 0.005149599999999754
+        },
+        "TrainerController.start_learning": {
+            "total": 47.251610400000004,
+            "count": 1,
+            "self": 1.211618300000005,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 7.862103499999999,
+                    "count": 1,
+                    "self": 7.862103499999999
+                },
+                "TrainerController.advance": {
+                    "total": 37.664577,
+                    "count": 1,
+                    "self": 1.2900000001536682e-05,
+                    "children": {
+                        "env_step": {
+                            "total": 37.6645641,
+                            "count": 1,
+                            "self": 37.664555899999996,
+                            "children": {
+                                "SubprocessEnvManager._take_step": {
+                                    "total": 8.19999999990273e-06,
+                                    "count": 1,
+                                    "self": 8.19999999990273e-06
+                                }
+                            }
+                        }
+                    }
+                },
+                "trainer_threads": {
+                    "total": 1.5400000002330216e-05,
+                    "count": 1,
+                    "self": 1.5400000002330216e-05,
+                    "children": {
+                        "thread_root": {
+                            "total": 0.0,
+                            "count": 0,
+                            "is_parallel": true,
+                            "self": 0.0,
+                            "children": {
+                                "trainer_advance": {
+                                    "total": 37.45100750000001,
+                                    "count": 19324,
+                                    "is_parallel": true,
+                                    "self": 0.3911891000004175,
+                                    "children": {
+                                        "process_trajectory": {
+                                            "total": 37.05981839999959,
+                                            "count": 19324,
+                                            "is_parallel": true,
+                                            "self": 37.05981839999959
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_model": {
+                    "total": 0.5132961999999992,
+                    "count": 1,
+                    "self": 0.5132961999999992
+                }
+            }
+        }
+    }
+}
