@@ -1298,6 +1298,11 @@ PrefabInstance:
       propertyPath: rewardText
       value: 
       objectReference: {fileID: 684446258}
+    - target: {fileID: 8042874512628798144, guid: 6a54cff8f19956b41acaa8f1ced26b53,
+        type: 3}
+      propertyPath: m_BehaviorType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9143527342295129628, guid: 6a54cff8f19956b41acaa8f1ced26b53,
         type: 3}
       propertyPath: m_Name

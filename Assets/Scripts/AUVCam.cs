@@ -110,11 +110,23 @@ public class AUVCam : Agent
 
     public override void Heuristic(float[] actionsOut)
     {
-        actionsOut[0] = Input.GetAxis("Horizontal");
-        actionsOut[1] = Input.GetAxis("Vertical");
-        actionsOut[2] = Input.GetAxis("Vertical");
-        actionsOut[3] = Input.GetAxis("Vertical");
-
+        if (Input.GetKeyDown(KeyCode.Q))
+            actionsOut[0] = 1;
+        if (Input.GetKeyDown(KeyCode.A))
+            actionsOut[0] = -1;
+        if (Input.GetKeyDown(KeyCode.W))
+            actionsOut[1] = 1;
+        if (Input.GetKeyDown(KeyCode.S))
+            actionsOut[1] = -1;
+        if (Input.GetKeyDown(KeyCode.E))
+            actionsOut[2] = 1;
+        if (Input.GetKeyDown(KeyCode.D))
+            actionsOut[2] = -1;
+        if (Input.GetKeyDown(KeyCode.R))
+            actionsOut[3] = 1;
+        if (Input.GetKeyDown(KeyCode.F))
+            actionsOut[3] = -1;
+        
     }
 
 }
