@@ -27,6 +27,10 @@ Basically:
     >```mlagents-learn auv_config.yaml --run-id=runID```
     * ```auv_config.yaml``` has the reinforcement learning training parameters
     * The model will be saved in the ``models`` directory
+3. For visualizing the data on tensorboard: [release_2_docs](https://github.com/Unity-Technologies/ml-agents/blob/release_2_docs/docs/Using-Tensorboard.md)
+    * Run
+    >```tensorboard --logdir=summaries```
+    * Navigate to [http://localhost:6006/](http://localhost:6006/) for the results
 
 ## To-do
 1. Train the boxed version
