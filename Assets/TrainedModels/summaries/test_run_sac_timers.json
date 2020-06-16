@@ -1,0 +1,36 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1592224011",
+        "python_version": "3.7.4 (default, Aug  9 2019, 18:34:13) [MSC v.1915 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\bon2die\\Anaconda3\\Scripts\\mlagents-learn auv_config_sac.yaml --run-id=test_run_sac",
+        "mlagents_version": "0.16.1",
+        "mlagents_envs_version": "0.16.1",
+        "communication_protocol_version": "1.0.0",
+        "tensorflow_version": "2.0.0-rc1",
+        "end_time_seconds": "1592224022"
+    },
+    "total": 10.130923500000002,
+    "count": 1,
+    "self": 0.25553690000000095,
+    "children": {
+        "run_training.setup": {
+            "total": 0.007607800000000164,
+            "count": 1,
+            "self": 0.007607800000000164
+        },
+        "TrainerController.start_learning": {
+            "total": 9.8677788,
+            "count": 1,
+            "self": 0.44949699999999915,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.4182818,
+                    "count": 1,
+                    "self": 9.4182818
+                }
+            }
+        }
+    }
+}

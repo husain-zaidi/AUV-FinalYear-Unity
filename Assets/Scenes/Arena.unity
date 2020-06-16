@@ -1263,7 +1263,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Model
       value: 
-      objectReference: {fileID: 5022602860645237092, guid: 4111608a4d4bf8a45bda3f2c97b7b544,
+      objectReference: {fileID: 5022602860645237092, guid: 97a37aae24bbe9b4ab6ae32fa4257f63,
         type: 3}
     - target: {fileID: 525275917735918073, guid: 76c374ae932a93449bd7c394ebab738a,
         type: 3}
@@ -1285,6 +1285,11 @@ PrefabInstance:
       propertyPath: rewardText
       value: 
       objectReference: {fileID: 684446258}
+    - target: {fileID: 525275918044114551, guid: 76c374ae932a93449bd7c394ebab738a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76c374ae932a93449bd7c394ebab738a, type: 3}
 --- !u!1001 &8042874512628798137
