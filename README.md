@@ -5,7 +5,7 @@ Trained using Deep Reinforcement Learning
 1. Unity 2019.3.15f
 2. Python 3.6+
 3. ML-Agents release_2
-3. mlagents - python package
+3. mlagents - python package v0.16.1
 
 ## Install
 
@@ -14,8 +14,8 @@ Refer full guide [here](https://github.com/Unity-Technologies/ml-agents/blob/rel
 Basically:
 
 1. Clone the ML-Agents Toolkit Repository
-2. Install the ```com.unity.ml-agents``` Unity package from the package manager (ensure you enable preview packages & donwload the latest)
-3. Install the ```mlagents``` Python package v0.16.1
+2. Install the ```com.unity.ml-agents``` Unity package from the package manager (ensure you enable preview packages & download 1.0.2)
+3. Install the ```mlagents``` Python package v0.16.1 exactly
 
 ## Run and Train
 
