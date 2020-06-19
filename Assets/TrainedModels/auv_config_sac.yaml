@@ -1,7 +1,7 @@
 default:
   trainer: sac
-  batch_size: 128
-  buffer_size: 2048
+  batch_size: 1024
+  buffer_size: 50000
   hidden_units: 512
   learning_rate: 3.0e-4
   learning_rate_schedule: constant
